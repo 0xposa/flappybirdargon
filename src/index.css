@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans-ui {
+  font-family: var(--font-sans);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.hud-text-stroke {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 6px #090D16;
+  text-shadow: 0 4px 0 #090D16, 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+.hud-kicker-stroke {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 3px #090D16;
+  text-shadow: 0 2px 0 #090D16;
+}

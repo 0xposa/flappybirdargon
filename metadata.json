@@ -1,0 +1,6 @@
+{
+  "name": "Kepak Langit: Ekspedisi Awan",
+  "description": "Game arcade Flappy Bird berkualitas tinggi dengan fisika presisi, siklus cuaca dinamis, kemampuan seluncur angin, dan audio prosedural.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
